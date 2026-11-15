@@ -126,10 +126,10 @@ HIT_CHANNEL_ID = LOGS_CHANNEL_ID
 JOIN_GROUP_ID = clean_channel_id(os.getenv("JOIN_GROUP_ID", ""))
 JOIN_GROUP_LINK = os.getenv("JOIN_GROUP_LINK", "")
 
-API_BASE_URL = os.getenv("API_BASE_URL", "h")
+API_BASE_URL = os.getenv("API_BASE_URL", "https://new-one.up.railway.app/shopii")
 BOT_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 DEV_LINK = "https://t.me/Rowdyking07"
-DEV_TAG = f"<a href='{DEV_LINK}'>{bs('Raven')}</a>"
+DEV_TAG = f"<a href='{DEV_LINK}'>{bs('Rowdy')}</a>"
 BOT_LINK = "https://t.me/"
 
 VBV_API_URL = ""
