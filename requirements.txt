@@ -1,0 +1,7 @@
+telethon
+aiohttp
+aiofiles
+uvloop
+psutil
+motor
+pymongo
