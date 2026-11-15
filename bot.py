@@ -112,10 +112,10 @@ def clean_channel_id(val):
     except Exception:
         return int(val)
 
-API_ID = int(os.getenv("API_ID", ""))
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-ADMIN_ID = json.loads(os.getenv("ADMIN_ID", "["))
+API_ID = int(os.getenv("API_ID", "32143521"))
+API_HASH = os.getenv("API_HASH", "273161fdfe0b9256e1baca74825672fb")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "9019817625:AAGHayUa7Al26vYMhdTav-Ynf_RT6QRHjdU")
+ADMIN_ID = json.loads(os.getenv("ADMIN_ID", "8866006557"))
 LOGS_CHANNEL_ID = clean_channel_id(os.getenv("LOGS_CHANNEL_ID", ""))
 LOGS_CHANNEL_LINK = os.getenv("LOGS_CHANNEL_LINK", "")
 HITS_CHANNEL_ID = clean_channel_id(os.getenv("HITS_CHANNEL_ID", "-"))
@@ -128,9 +128,9 @@ JOIN_GROUP_LINK = os.getenv("JOIN_GROUP_LINK", "")
 
 API_BASE_URL = os.getenv("API_BASE_URL", "h")
 BOT_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
-DEV_LINK = "https://t.me/Ravenu899"
+DEV_LINK = "https://t.me/Rowdyking07"
 DEV_TAG = f"<a href='{DEV_LINK}'>{bs('Raven')}</a>"
-BOT_LINK = "https://t.me/razor_x_v2_bot"
+BOT_LINK = "https://t.me/"
 
 VBV_API_URL = ""
 VBV_API_KEY = ""
